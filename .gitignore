@@ -1,0 +1,13 @@
+.gradle
+#关于.idea的以下四种写法都可以，.iead/*可以忽略其下所有的文件夹和文件
+#/.idea/workspace.xml
+#.idea/workspace.xml
+#.idea/*
+.idea
+#斜线 "/" 用作目录分隔符。
+#如果在模式的开头或中间（或两者都有）有分隔符，则该模式是相对于特定 .gitignore 文件本身的目录层级而言的。
+#否则，该模式也可能匹配 .gitignore 层级以下的任何层级。例如：/build和build的区别
+/build
+#build #各个子模块自己添加/build即可，匹配任何层级理论上销毁性能
+/local.properties
+#local.properties
