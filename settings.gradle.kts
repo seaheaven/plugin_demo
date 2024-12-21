@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "PluginDemo"
 include(":app")
- 
+include(":libBytecodePlugin")
