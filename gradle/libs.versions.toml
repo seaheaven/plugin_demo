@@ -10,6 +10,7 @@ activityCompose = "1.9.3"
 composeBom = "2024.04.01"
 jetbrainsKotlinJvm = "1.9.0"
 asm = "9.7"
+myAsmPlugin = "1.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -32,6 +33,7 @@ asm-analysis = { module = "org.ow2.asm:asm-analysis", version.ref = "asm" }
 asm-commons = { module = "org.ow2.asm:asm-commons", version.ref = "asm" }
 asm-tree = { module = "org.ow2.asm:asm-tree", version.ref = "asm" }
 asm-util = { module = "org.ow2.asm:asm-util", version.ref = "asm" }
+my-asm-plugin = { module = "com.yirun:libBytecodePlugin", version.ref = "myAsmPlugin" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
